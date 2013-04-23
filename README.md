@@ -9,7 +9,7 @@ rake already installed.
 
 ## REQUIREMENTS
 
-* [This project's source](https://github.com/xforty/vagrant-drupal)
+* [This project's source](https://github.com/zachlatta/vagrant-rails)
 * Not windows (haven't tested it yet, but you can try)
 * Ruby >= 1.9.2 (do yourself a favor and use
   [rvm](http://beginrescueend.com/) to manage your ruby environment)
@@ -22,13 +22,13 @@ rake already installed.
 
 1. Start on the host by provisioning and logging into a vm:
 
-        host$ git clone git://github.com/xforty/vagrant-rails.git
+        host$ git clone git://github.com/zachlatta/vagrant-rails.git
         host$ cd vagrant-rails
         host$ librarian-chef install
         host$ vagrant up
         host$ vagrant ssh
 
-2. Then build and install a drupal site on the vm:
+2. Then build and install a rails site on the vm:
 
         vm$ cd /vagrant
         vm$ bundle init
@@ -50,7 +50,7 @@ they are working on.  To do this we recommend the following.
 
 If you are cloning directly from your repo it won't contain the original
 github project. In that case, you will need to add the upstream remote:
-`git remote add github git://github.com/xforty/vagrant-drupal.git`
+`git remote add github git://github.com/zachlatta/vagrant-rails.git`
 
 It is common to modify the Vagrantfile. We encourage you to read through the
 comments in the Vagrantfile as well as the official
@@ -59,8 +59,8 @@ configurations.
 
 ## RESOURCES
 
-* [Wiki](https://github.com/xforty/vagrant-rails/wiki)
-* [Issues](https://github.com/xforty/vagrant-rails/issues)
+* [Wiki](https://github.com/zachlatta/vagrant-rails/wiki)
+* [Issues](https://github.com/zachlatta/vagrant-rails/issues)
 
 --------------------------------------------------------------------- 
-Maintained by [xforty technologies](http://www.xforty.com)
+Maintained by [zachlatta](http://www.zachlatta.com)
